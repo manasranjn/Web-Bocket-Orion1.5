@@ -1,0 +1,24 @@
+1. Create an HTML page with the title "My First Webpage".
+2. Use different heading tags (<h1> to <h6>) to display the following text:
+Welcome to My Website
+About Me
+My Hobbies
+Contact Information
+3. Write a paragraph (<p>) introducing yourself.
+4. Create a paragraph with a line break using <br>, and horizontal row.
+5. Create a webpage with the title “My Text Formatting Practice”.
+-Inside the body, write a paragraph with:
+Bold text
+Italic text
+Underlined text
+A superscript and 
+subscript
+-Use <mark>, <small>, <big>, <del>, and <ins> tags to format a sentence.
+6. Add an image from a local folder and another from the web. Set width and height for both.
+7. Embed a video using a local file, and apply controls, autoplay, muted, and loop attributes.
+8. Embed a YouTube video using an <iframe> tag.
+9. Embed a Google Map of your city using an <iframe>.
+10. Create three anchor (<a>) tags:
+-One that opens a link in the same tab
+-One that opens in a new tab
+-One that links to another HTML file in your project
