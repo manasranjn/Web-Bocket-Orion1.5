@@ -1,0 +1,54 @@
+#head{
+    color: red;
+    font-size: 100px;
+}
+.container{
+    color: white;
+    font-size: 30px;
+    background-color: darkcyan;
+}
+.container:hover{
+    background-color: darkviolet;
+    color: black;
+}
+button{
+    background-color: burlywood;
+    height: 50px;
+    width: 120px;
+    font-size: 30px;
+}
+button:hover{
+    background-color: dimgray;
+    color: white;
+    cursor: pointer;
+}
+button:active{
+    background-color: brown;
+}
+
+input{
+    height: 60px;
+    width: 500px;
+    font-size: 30px;
+}
+input:focus{
+    color: aquamarine;
+}
+p{
+    color: crimson;
+    font-size: 30px;
+}
+p::first-letter{
+    font-size: 80px;
+    color: black;
+}
+p::first-line{
+    color: blueviolet;
+    text-decoration: underline;
+}
+p::before{
+    content: 'Hello ';
+}
+p::after{
+    content: ' World';
+}
