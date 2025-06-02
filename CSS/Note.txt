@@ -82,3 +82,57 @@ e.g:- selector:active/hover
 -It is a keyword added to a selector that lets us style a specific part of the selected element.
 -Double colon(::) is used to write Pseudo elements.
 e.g:- ::after, ::before, ::first-line, ::first-letter
+
+# Box-Model in CSS:-
+-Using box model we can specify how an element should be displayed on the web page by giving properties - height & width, padding, border, and margin.
+-The innermost layer of the box model is content itself which includes height and width. Following by padding, border and margin respectively.
+
+## Padding:- It is the inner space between the content and border.
+-Padding values will be applied on the four sides of the content when single value is given for padding.
+-Padding Syntax:- 
+1. padding: 10px (four side equal)
+2. padding: top-bottom left-right
+3. padding: top left-right bottom
+4. padding: top right bottom left
+
+## Border:- Border property is used to define the boundary around an element. 
+-Border for a content can be specify using three values.
+    -border-size 
+    -border-style : solid/dashed/dotted/double
+    -border-color
+e.g:- border: 10px solid green;
+-To curve the edges of border we use border-radius property.
+e.g: border-radius: 5px;
+
+## Margin:- It defines the space between one or more elements.
+-It is the outer white space of an element.
+-It follows the same syntax as padding.
+1. margin: 10px (four side equal)
+2. margin: top-bottom left-right
+3. margin: top left-right bottom
+4. margin: top right bottom left
+
+# Box shadow and Text shadow:-
+-Box shadow is used to give a shadow effect for a selected element. Whereas text shadow used for text.
+Syntax:-
+    box-shadow: x-offset y-offset blur color;
+    text-shadow: x-offset y-offset blud color;
+e.g:-
+    .box {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.text {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+# Display Properties:- 
+-It specifies how an element must be aligned or stuctured in a web-page.
+-There are 4-types of display properties.
+1. Block:- The elements that are block, will be displayed one by one & occupies 100% width of the web-page.
+-We can change the height and width of a block element.
+
+2. Inline:- The elements will be displayed in the same row where height and width properties will not work.
+
+3. Inline-block:- Displays all the element in the same row and also can change height and width. 
+
+4. None:- The element will not display in the web page
