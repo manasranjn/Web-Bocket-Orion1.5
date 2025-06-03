@@ -31,3 +31,5 @@ Set height of the container to 300px
 10. Build a simple image gallery using CSS Grid:
 Display 6 images in 3 columns
 Add gap between grid items
+
+11. Create an HTML form to collect student information, including name, age, email, gender, course selection, country, address, subjects, resume, profie image, skills, and a short bio
