@@ -139,7 +139,7 @@ e.g:-
 
 # Flex-box:-
 -This property is used to structure the elements in row wise or column wise by giving space allocation for individual elements within the flex area.
-Properties:- 
+Properties:-
 1. flex-direction:- It specifies from which direction the elements should be aligned.
 Values:-
 flex-direction: row/row-reverse/column/column-reverse ;
@@ -149,7 +149,7 @@ Values:-
 align-items: flex-start/center/flex-end ;
 
 3. justify-content:- This is used to align the elements horizontally in the flex area.
-Values:- 
+Values:-
 justify-content: start/center/end/space-between/space-around/space-evenly
 
 # Grid-Layout:-
