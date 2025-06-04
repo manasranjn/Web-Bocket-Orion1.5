@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+}
+.box{
+    width: 600px;
+    height: 300px;
+    background-color: cadetblue;
+    font-size: 10px;
+}
+.box h1{
+    font-size: 2rem;
+}
+.container h2{
+    font-size: 3em;
+}
+.container{
+    width: 50%;
+    height: 200px;
+    background-color: crimson;
+}
+
+.element{
+    /* height: 30vh ; */
+    height: 50vmax;
+    width: 80vw;
+    background-color: rgb(77, 108, 212);
+}
+body{
+    font-size: 20px;
+}
+p{
+    font-size: 1.4em;
+}
