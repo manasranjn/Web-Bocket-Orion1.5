@@ -1,0 +1,5 @@
+1. Create a table with 3 rows and 3 columns containing sample data (like names, age, and city). Add a caption to the table (e.g., "Student Report") and align the content in the center.
+2. Create a table with a header row (<th>) and use a border for the entire table.
+3. Create a timetable for your weekly college class schedule using a table.
+4. Create a table that has cells spanning multiple columns (colspan) and rows (rowspan).
+5. Create a form with fields: Name (text), Email (email), Password (password), and Submit button. 
