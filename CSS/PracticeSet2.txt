@@ -1,1 +1,10 @@
-1. 
+1. Create a card layout using a <div> with a white background and apply a soft gray box-shadow to give a raised effect.
+2. Design three different shadow styles:
+-One with a sharp shadow
+-One with a blurred soft shadow
+-One with a top-left blured shadow
+3. Create a hover effect where the shadow becomes darker and offset increases when the user hovers over a box.
+4. Add a glowing text effect using text-shadow on an <h1> element.
+5. Create an ordered list (<ol>) of your 5 favorite programming languages.
+6. Create an unordered list (<ul>) of grocery items.
+7. Create a nested list showing categories and subcategories (e.g., Fruits → Apple, Banana).
