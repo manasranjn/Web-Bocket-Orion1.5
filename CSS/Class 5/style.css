@@ -1,0 +1,111 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.box:hover{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+#heading{
+    text-shadow: 5px 5px 5px rgba(209, 239, 16, 0.5);
+}
+.gridLayout{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.gridLayout img{
+    width: 100%;
+}
+
+#nav{
+    display: flex;
+    background-color: white;
+    padding: 0 140px;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+#nav h1{
+    font-size: 40px;
+}
+
+#navLinks{
+    display: flex;
+    gap: 20px;
+}
+#navLinks ul{
+    display: flex ;
+    gap: 20px;
+    list-style: none;
+    font-size: 20px;
+}
+#navLinks ul li a{
+    text-decoration: none;
+    color: black;
+}
+#navLinks button{
+    background-color: #4CAF4F;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.parent{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rotate{
+    background-color: #4CAF4F;
+    height: 200px;
+    width: 200px;
+    /* transform: rotateX(120deg); */
+    /* transform: rotateY(45deg); */
+    /* transform: rotateZ(45deg); */
+    /* transform: rotate(45deg); */
+    /* transform: scaleX(1.5); */
+    /* transform: scaleY(1.5); */
+    /* transform: scale(2); */
+    /* transform: translateX(-400px); */
+    /* transform: translateY(400px); */
+    /* transform: translate(100px,200px); */
+    /* transform: skewX(-20deg); */
+    /* transform: skewY(20deg); */
+    /* transform: skew(20deg,30deg); */
+    /* transition-property:  transform;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 2s; */
+    transition: transform 2s ease-in-out;
+}
+#rotate:hover{
+transform: scale(1.5);
+}
+#spinner{
+    background-color: white;
+    border: 10px solid black;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border-top: none;
+    animation-name: spinn;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spinn {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
