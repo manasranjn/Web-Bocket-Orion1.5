@@ -94,7 +94,7 @@ transform: scale(1.5);
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    border-top: none;
+    border-top: 5px solid white;
     animation-name: spinn;
     animation-duration: 2s;
     animation-iteration-count: infinite;
