@@ -1,0 +1,113 @@
+.spinner{
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 50%;
+    border-top: 10px solid white;
+    /* animation-name:   spinner;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-direction: reverse; */
+    animation: spinner 1s linear infinite reverse;
+}
+
+.parent{
+    background-color: brown;
+    height: 700px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+.ball{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    animation: drop 2s infinite alternate;
+}
+
+@keyframes drop{
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(600px);
+    }
+}
+/* @keyframes spinner{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+} */
+
+@keyframes spinner{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(10deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(200deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.box1{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: static;
+    /* top: 0px; */
+}
+.box2{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    /* right: 10px; */
+    left: 50px;
+    top: 50px;
+}
+.container
+{
+    background-color: blueviolet;
+    height: 300px;  
+    width: 300px;
+    position: relative;
+    margin: 10px;
+}
+.box3{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    /* z-index: -1; */
+}
+.box4{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    top: 100px;
+    right: 0px;
+}
+.box5{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    position: sticky;
+    top: 50px;
+}
