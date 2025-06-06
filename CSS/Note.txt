@@ -205,3 +205,63 @@ transition-timing-function: ease-in/ease-out/linear/steps(5)
 transition-delay: 2s/3s/10s ...etc
 (or)
 transition: property-name duration timing-function delay
+
+# CSS Animations:- Used to animate transitions between CSS styles using keyframes.
+-To create animation we need keyframes.
+
+## CSS Keyframes:- @keyframes define the behavior of an animation sequence by specifying styles at various points.
+Syntax:-
+@keyframes animation-name {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+Animation Properties:-
+animation-name, animation-duration, animation-delay, animation-iteration-count, animation-timing-function, animation-direction
+(or- short-hand)
+animation: name duration iteration timing-function delay;
+
+# Position property:-
+-Position property is used as a special method in css to specify the exact structure and positions of each element.
+-Position property uses various methods in css like: Static, relative, absolute, fixed, and sticky to specify the exact position of each element depending on their behaviours.
+- In css we have some preoperties like:-
+    top/right/bottom/left
+    These preoperties are used to change the position of on element.
+-However these properties won't work without mentioning the position preoperty and its methods.
+1. Static:- HTML elements are positioned static by default.
+-These elements are not effected by top/right/bottom/left properties.
+
+2. Relative:- The element is positioned relative to its original position.
+-Setting the top/right/bottom/left properties will move that element from its original position & other elements will not be effected.
+
+3. Absolute:- It positions an element relative to it's parent relative positioned container. If there is no parent container with position relative then it relative to the body and these elements ccan overlap other elements.
+
+4. Fixed:- The element will be fixed permanently at a specified position.
+
+5. Sticky:- The element will behave as normal element & gets fixed once it reaches cirtain point of the webpage.
+- A sticky element toggles between relative + fixed depending on the position value.
+
+# Responsive Design:- Responsive design ensures a website looks and works well on all devices (desktops, tablets, and phones).
+Techniques:
+-Fluid Grids: Use percentage widths.
+-Flexible Images: max-width: 100%; height: auto;
+-Media Queries: Apply styles based on device size.
+-Responsive Units: Use em, rem, %, vw, vh instead of fixed units.
+
+# CSS Media Queries:- CSS Media Queries are used to apply different styles to different screen sizes or device types.
+Syntax:- 
+@media only (screen-size) and (screen-size) {
+  element {
+    background-color: lightblue;
+  }
+}
+
+Common Breakpoints:
+-Mobile: max-width: 480px
+-Tablet: 481px - 768px
+-Laptop: 769px - 1024px
+-Desktop: 1025px and above
