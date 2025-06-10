@@ -11,3 +11,5 @@
 -A scripting language is a type of programming language used to automate tasks that executes line by line.
 -For example - JavaScript, Python, PHP... etc.
 
+
+
