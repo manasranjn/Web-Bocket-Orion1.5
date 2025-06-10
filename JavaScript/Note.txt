@@ -1,0 +1,15 @@
+# JavaScript:-
+-JavaScript is a scripting and programming language, introduced to perform live-scripting or dynamic responsive on a web-page.
+-Netscape Communications hired 'Brendan Eich' to develop a scripting language for their browser, Netscape Navigator. Eich created JavaScript in just 10 days.
+-The language was first called "MOCHA", then LiveScript, and finally JavaScript—not because it's related to Java, but as a marketing decision to capitalize on Java’s popularity.
+-JavaScript is used for building logics of a web page.
+-JavaScript is a high level programming language, used in both client side as well as server side.
+-Currently we are using JavaScript version 6 i.e ES6(Echma script 6), which is also called as vanilla JavaScript.
+-Node JS is the run time environment of JavaScript.
+
+## What is Scripting language ?
+-A scripting language is a type of programming language used to automate tasks that executes line by line.
+-For example - JavaScript, Python, PHP... etc.
+
+
+
