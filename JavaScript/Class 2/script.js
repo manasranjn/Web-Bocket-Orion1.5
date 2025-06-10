@@ -99,3 +99,46 @@ function example() {
 // example()
 
 //! Operator in JS
+//? Arithmetic Operator
+let val1 = 4
+let val2 = 3
+
+// let addition = val1 + val2
+// console.log("Addition=", addition);
+
+// let sub = val1 - val2
+// console.log("Subtraction=", sub);
+
+// let multi = val1 * val2
+// console.log("Multiplication", multi);
+
+// let div = val1 / val2
+// console.log("Division= ", div);
+
+// let mod = val1 % val2
+// console.log("Modulus=", mod);
+
+// let expo = val1 ** val2
+// console.log("Exponent= ", expo);
+
+//? Assignment Operator (=,+=,-+,*=,/=,%=,**=)
+let ab = 20
+let xy = 90
+
+// ab += xy // ab = ab+xy
+// console.log(ab);
+
+// ab -= 10
+// console.log(ab);
+
+// ab *= 5
+// console.log(ab);
+
+// ab /= 4
+// console.log(ab);
+
+// ab %= 3
+// console.log(ab);
+
+// ab **= 6 // ab = ab ** 6
+// console.log(ab);
