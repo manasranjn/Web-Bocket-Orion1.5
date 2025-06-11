@@ -26,6 +26,7 @@
     justify-content: center;
     gap: 40px;
     margin-top: 50px;
+    margin: 0 auto;
 }
 .left-content{
     width: 60%;
@@ -47,13 +48,13 @@
     cursor: pointer;
     border: none;
 }
-.right-content{
-    width: 40%;
+.profile-image{
+    width: 35%;
 }
-.right-content img{
+.profile-image img{
     height: 400px;
     width: 400px;
     border-radius: 50%;
-    box-shadow: 15px 5px 5px #EDF7FA;
-    
+    box-shadow: -5px 5px 5px #2a91b1;
+    object-fit: cover;
 }
