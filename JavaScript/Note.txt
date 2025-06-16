@@ -86,7 +86,6 @@ function calling ->
 functionName();
 
 # Operators in JS:- Operators are symbols used to perform operations on one or more variable and values.
-
 ## Arithmetic Operator:-
 1. Addition (+): Adds two operands.
 2. Subtraction (-): Subtracts right operand from left operand.
@@ -118,3 +117,80 @@ functionName();
 1. Logical AND (&&): Returns true if both operands are true.
 2. Logical OR (||): Returns true if either of the operands is true.
 3. Logical NOT (!): Returns the opposite of the operand's boolean value.
+
+## Unary Operators:- Unary operators operate on a single operand.
+1. Inrement (++): Increases the value of the operand by 1.
+a). Pre-increment (++x): Increments before use.
+b). Post-increment (x++): Increments after use.
+2. Decrement (--): Decreases the value of the operand by 1.
+a). Pre-decrement (--x): Decrements before use.
+b). Post-decrement (x--): Decrements after use.
+
+# Conditional Statement :-
+-To implement some condition in the code.
+-There are 3 types of conditional statements are there
+## if Condition :-
+-When we have one statement which we want to execute based on a condition then we use ifcondition. If the condition is true then statement will execute.
+Syntax :- if (condition){ statement }
+
+## if-else Condition :-
+-When we have two statements but one condition then we use if-else condition.
+-If the condition is true then statement under if block will execute if the condition is false then the else block will execute. otherwise false.
+Syntax :- if (condition){ statement } else { statement }
+
+## if-elif condition :-
+-When we have multiple statement and multiple condition then we use elseif condition.
+Syntax :- if (condition){ 
+    statement 
+    } 
+    else if(condition){ 
+        statement 
+    } else if(condition){ 
+        statement 
+    } else { 
+        statement }
+
+## Switch case :-
+-Switch statement is used to execute different blocks of code based on the value of an expression. 
+-It provides a cleaner alternative to multiple if-else conditions.
+
+Syntax:- 
+switch (expression) {
+    case value1:
+        // Code to execute if expression === value1
+        break;
+    case value2:
+        // Code to execute if expression === value2
+        break;
+    default:
+        // Code to execute if no case matches
+}
+
+# Loops in JS:-
+When we have to run the same set of instruction over and over again, each time with a different or with same value then we use loops.
+
+## for loop:-
+- for loops provides concise way of writting the loop structure containing initializaton, condition, and iteration in one line.
+-A for loop repeats until a specified condition evaluates to false.
+Syntax:-
+for(initializaton; condition; iteration){
+    //instruction
+}
+
+## while loop:- 
+- When we know starting point but we don't know the ending point, we use while loop.
+Syntax:-
+initializaton;
+while(condition){
+    //instruction
+    iteration;
+}
+
+## do-while loop:-
+- do-while loop is similar to the while loop, but the only difference is that it executes the instruction first then it checks the condition. That's why even if the condition is false still the block of code will execute at-least once.
+Syntax:-
+initializaton;
+do{
+    //instruction
+    iteration;
+}while(condition);
