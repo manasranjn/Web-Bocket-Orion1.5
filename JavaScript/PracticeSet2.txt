@@ -1,0 +1,7 @@
+1. Apply different text colors, background colors, and fonts to 3 paragraphs.
+2. Style a div with width, height, border, padding, and margin.
+2. Create a navigation bar using Flexbox with horizontal links spaced evenly.
+3. Build a 2-column layout using CSS Grid.
+4. Design a card with box-shadow, border-radius, and hover effects using transition.
+5. Build a simple responsive layout using media queries for desktop and mobile views.
+6. Use a for-in loop to list all properties of an object.
