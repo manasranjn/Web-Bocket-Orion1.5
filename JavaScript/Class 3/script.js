@@ -56,7 +56,7 @@ let time = 19
 // }
 
 //? switch case
-let value = 2
+let value = 1
 switch (value) {
     case 1:
         console.log("Case 1");
@@ -66,6 +66,9 @@ switch (value) {
         break;
     case 3:
         console.log("Case 3");
+        break;
+    case 4:
+        console.log("Hello");
         break;
     default:
         console.log("Default case");

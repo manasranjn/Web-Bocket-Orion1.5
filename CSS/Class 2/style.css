@@ -1,17 +1,18 @@
 *{
     margin: 0;
     /* box-sizing: content-box; */
+    box-sizing: border-box;
 }
 #heading{
-    height: 200px;
     width: 300px;
-    padding: 20px;
+    height: 200px;
     color: blueviolet;
+    padding: 20px;
     /* padding: 20px 50px; */
     /* padding: 20px 40px 60px; */
     /* padding: 10px 20px 30px 40px; */
     /* padding-right: 20px; */
-    /* border-width: 5px;
+    /* border-width: 15px;
     border-style: solid;
     border-color: chocolate;
     border-radius: 10px; */
@@ -23,7 +24,7 @@
     /* margin-left: 30px; */
     background-color: cadetblue;
     /* box-shadow: -10px 10px 10px black; */
-    text-shadow: 5px 5px 2px red;
+    /* text-shadow: 5px 5px 2px red; */
 }
 
 .para1{
@@ -46,6 +47,7 @@
     height: 200px;
     width: 200px;
     background-color: black;
+    color: white;
 
 }
 .para5{
