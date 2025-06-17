@@ -12,16 +12,17 @@
 .parent{
     height: 700px;
     background-color: brown;
+    color: white;
     display: flex;
     /* flex-direction: column-reverse; */
-    /* justify-content: center; */
-    /* justify-content: space-between; */
+    /* justify-content: right; */
+    /* justify-content: space-between;  */
     /* justify-content: space-evenly; */
-    justify-content: space-around;
+    /* justify-content: space-around; */
     /* align-items: flex-end; */
     /* align-items:center; */
-    /* gap: 20px; */
-    /* flex-wrap: wrap; */
+    gap: 20px;
+    flex-wrap: wrap;
 }
 .grid{
     background-color: chocolate;
