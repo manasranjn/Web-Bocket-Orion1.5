@@ -251,3 +251,104 @@ Syntax:- array.toString()
 9. includes():- It is used to find the existance of an element in the array.
 -If the element is present in the array then it returns true else it returns false.
 Syntax:- array.includes()
+
+# String and it's methods:-
+-Strings in JS are immutable, meaning once created their values can't be change. 
+
+## Template String:- 
+-The collection of character that is written inside backtick(``) is considered as 'template string'.
+-The advantage of using template string is- 
+i)It let's user to interpolin the dynamic variable of JS inside the string.
+ii)It lets user to initialize multiple lines of string.
+
+## Template Literals:-
+By using `${variableName}` we can create a dynamic variable that can be access inside an template string.
+Syntax:- `This is a template literals ${variableName}`
+
+## String inbuilt methods:- 
+1. indexOf():- It returns the first index occurrence of a specific substring within the original string.
+Syntax:- string.indexOf("subString")
+
+2. lastIndexOf():- It returns the last index occurrence of a specific substring within the original string.
+Syntax:- string.lastIndexOf("subString", endIndex)
+
+3. chatAt():- It returns the character at the specified index in the original string.
+Syntax:- string.chatAt(indexPosition)
+
+4. toUpperCase():- It converts all the characters in the string to uppercase.
+Syntax:- string.toUpperCase()
+
+5. toLowerCase():- It converts all the characters in the string to lowercase.
+Syntax:- string.toLowerCase()
+
+6. replace():- It replaces first occurrence of a specified substring with another substring in the original string.
+Syntax:- string.replace("searchString", "newString")
+
+7. replaceAll():- It replaces all occurrence of a specified substring with another substring in the original string.
+Syntax:- string.replaceAll("searchString", "newString")
+
+8. slice():- Extracts a section and returns a substring from start inex and end index but end index is excluded.
+Syntax:- string.slice(startIndex, endIndex)
+
+9. split():- It splits the string into an array of strings based on a specific separator.
+Syntax:- string.split("separator")
+
+10. length:- It is an operator used to find the length of a string.
+Syntax:- string.length
+
+# Function in JS:- 
+-Functions are a set of instruction or block of code used to perform some specific task.
+-There are two types of functions:-
+    -Pre-defined functions
+    -User-defined Functions
+
+## Pre-defined function:-
+-A function which is already written by JS developers with some specific task is known as pre-defined function.
+e.g:- push(), pop(), log(),....
+
+## User-defined function:- 
+- A function which is declared and written some instruction by the user is known as user-defined function.
+e.g: normal function,...
+-In JS to return a output from a function, we use "return" keyword.
+-There are two way we can create a function-
+i)-Type-A(Without parameter):- A function without parameters does not require any external input when called.
+-It simply executes a set of instructions.
+e.g:- function greet(){
+    print("Hello, everyone!")
+}
+greet()
+
+ii)-Type-B(With parameter):- A function with parameters allows us to pass values to customize its behavior.
+e.g:- function greet(name){
+    print(f"Hello, {name}!")
+}
+greet("Manas")  
+
+## Types of user-defined function:-
+1. Normal function:- A function which is declared using both function keyword and function name is known as normal function. 
+Syntax:- function functionName(parameter){
+    //instruction
+}
+
+2. Anonymous function:- A function which is declared without a function name but declared using function keyword and stored in a variable is called as anonymous function.
+Syntax:- const variableName = function(){
+    //instruction
+}
+
+3. Arrow function:- A function without a function keyword. 
+-Instead of function keyword we use arrow symbol.
+Syntax:- const functionName = ()=>{
+    //instruction
+}
+
+4. Callback function:- It is a function which is used to pass as an argument to another function.
+Syntax:- ()=>{
+    //instruction
+}
+
+# forEach() :-
+-It is a looping condition where the iterator of forEach loop will iterates through every elements in the array.
+Syntax:- array.forEach((iterator)=>{
+    //instruction
+})
+-It takes a Callback function as an argument in which the user will pass the iterator(accumulator) that iterates through every element of the array.
