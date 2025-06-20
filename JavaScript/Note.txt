@@ -352,3 +352,60 @@ Syntax:- array.forEach((iterator)=>{
     //instruction
 })
 -It takes a Callback function as an argument in which the user will pass the iterator(accumulator) that iterates through every element of the array.
+
+# Array methods:-
+10. map():- It is used to traverse(visit) every element in the array.
+-It uses a callback function as an argument. 
+-Callback function uses accumulator as an argument, where each item will store once at a time starting from zero index.
+Syntax:- array.map((item)=>{
+    //instruction
+})
+
+11. filter():- It is used to traverse every element in the array and it will return a sub-array based on some condition.
+-If the condition is true then it will return the value else it will skip.
+Syntax:- array.filter((item)=>{
+    return condition;
+})
+
+12. reduce():- It is used to reduce multiple elements of an array into a single value.
+-It accepts a callback function that has two arguments; initial value and accumulator.
+Syntax:- array.reduce((initialValue, accumulator)=> initialValue += accumulator, 0)
+
+# DOM(Document Object Model):-
+-The document object model is a programming interface that provides a structured representation of HTML and XML document.
+-It defines the logican structure of documents and the way a document is accessed and manipulated.
+-It represents the document as a tree like structure, where each node represents a part of the document(elements, attribute, text, comment).
+
+## Why we used DOM in Javascript :-
+-JavaScript can change all the HTML element in the page.
+-JavaScript can create, delete or edit any HTML node in the document.
+-JavaScript can also manipulate CSS styling directly.
+
+## Windows object :-
+-The window object represents an open window in a browser. It is a browser object & it automatically created by browser.
+-It is also a global object with lots of properties & method.
+
+## DOM Selection methods:-
+1. getElementById():- It selects an element from the document by ID name, which must be unique within the document.
+Syntax:- document.getElementById("idName")
+
+2. getElementsByClassName():- It returns a HTMLCollection of elements with the specified class name.
+Syntax:- document.getElementsByClassName("className")
+
+3. getElementsByTagName():- It returns a HTMLCollection of elements based on their tag name withing the document. 
+Syntax:- document.getElementsByTagName("p")
+
+4. getElementsByName():- It returns a collection of elements with a given name attribute.
+Syntax:- document.getElementsByName("name")
+
+5. querySelector():- It returns the first element within the document that matches the specified selector.
+-It uses CSS_style selector mechanism to select elements (.className, #idName, tagName).
+Syntax:- document.querySelector("selector")
+
+6. querySelectorAll():- It is used to select and return the collection fo Nodes or elements using CSS selector mechanism. (.className, #idName, tagName)
+-It selects all the nodes that matches the specified selector.
+Syntax:- document.querySelectorAll("selector")
+
+## Attribute Manipulation:- 
+-getAttribute(attr): Retrieves the value of the specified attribute from an element.
+-setAttribute(attr, value): Sets or updates the value of a specified attribute on an element.
