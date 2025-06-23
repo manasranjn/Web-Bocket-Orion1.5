@@ -444,7 +444,7 @@ console.log("Hello, " + userName);
 # Event Hnadling in JavaScript:-
 -JavaScript allows us to respond to user actions like clicks, key presses, and mouse movements through event handling.
 -Event handlers are functions that execute when an event occurs.
-Syntax:- node.event = () => { // handle here }
+Syntax:- node.eventHandler = () => { // handle here }
 
 ## Event Object in JavaScript:-
 The Event Object is a special object in JavaScript that contains details about an event that occurs, such as a button click, mouse movement, or keyboard press. 
