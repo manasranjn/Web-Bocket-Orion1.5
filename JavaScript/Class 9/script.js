@@ -48,21 +48,20 @@ function getPostComments(postId, callback) {
 
 // console.log("1");
 
-// fetch("https://jsonplaceholder.typicode.com/posts")
-//     .then((response) => {
-//         console.log(response);
-//         response.json()
-//             .then((result) => {
-//                 console.log(result);
-//             })
-//             .catch((failed) => {
-//                 console.log(failed);
-//             })
-//     })
-//     .catch((reject) => {
-//         console.log(reject);
-
-//     })
+fetch("https://jsonplaceholder.typicode.com/posts")
+    .then((response) => {
+        console.log(response);
+        response.json()
+            .then((result) => {
+                console.log(result);
+            })
+            .catch((failed) => {
+                console.log(failed);
+            })
+    })
+    .catch((reject) => {
+        console.log(reject);
+    })
 
 // console.log("2");
 // getData()
