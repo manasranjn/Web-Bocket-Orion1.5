@@ -85,3 +85,12 @@ setTimeout(() => {
 }, 3000)
 console.log("Five");
 console.log("Six");
+
+const obj = {
+    name: "ABCD",
+    age: 20,
+    state: "Odisha"
+}
+
+const { name, age, state } = obj
+console.log(name, age, state);
