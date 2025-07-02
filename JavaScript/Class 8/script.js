@@ -77,14 +77,14 @@ let child = new Child()
 // child.helloChild()
 
 
-console.log("One");
-console.log("Two");
-console.log("Three");
-setTimeout(() => {
-    console.log("Four");
-}, 3000)
-console.log("Five");
-console.log("Six");
+// console.log("One");
+// console.log("Two");
+// console.log("Three");
+// setTimeout(() => {
+//     console.log("Four");
+// }, 3000)
+// console.log("Five");
+// console.log("Six");
 
 const obj = {
     name: "ABCD",
@@ -94,3 +94,8 @@ const obj = {
 
 const { name, age, state } = obj
 console.log(name, age, state);
+
+const arr = [1, 2, 3, 4, 5]
+const [first, second, third, fouth, fifth] = arr
+console.log(first);
+

@@ -18,17 +18,17 @@
 
 import React from "react";
 
-const Example = () => {
-  const obj = {
-    name: "ABCD",
-    age: 20,
-    state: "Odisha",
-  };
-  console.log(obj);
-  const { name, age, state } = obj;
-  console.log(name, age, state);
-
-  return <div>Example</div>;
+const Example = ({ name, age, state, country }) => {
+  return (
+    <div className="bg-green-400 text-gray-500 p-10 rounded-2xl shadow-lg">
+      <h1 className="text-xl font-bold italic text-center underline uppercase">
+        Name: {name}
+      </h1>
+      <h2>Age: {age}</h2>
+      <h2>State: {state}</h2>
+      <h2>Country: {country}</h2>
+    </div>
+  );
 };
 
 export default Example;
