@@ -1,0 +1,32 @@
+{
+  "employees": [
+    {
+      "id": "450e",
+      "name": "Amit",
+      "company": "Microsoft",
+      "salary": "120000",
+      "designation": "SDE"
+    },
+    {
+      "id": "06cb",
+      "name": "Barsha",
+      "company": "TCS",
+      "salary": "80000",
+      "designation": "ASE"
+    },
+    {
+      "name": "Soumya Ranjan",
+      "company": "GIFT",
+      "salary": "500000",
+      "designation": "HOD",
+      "id": "3ad0"
+    },
+    {
+      "id": "b3ba",
+      "name": "Tusar",
+      "company": "Web Bocket",
+      "salary": "30",
+      "designation": "Sr. Dev"
+    }
+  ]
+}
